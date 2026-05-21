@@ -1,9 +1,9 @@
 # Semantic Search
 
-> 基于 OpenAI Embedding + ChromaDB 的极简语义搜索引擎实现
+> 基于 OpenAI Embedding + ChromaDB 的极简语义搜索引擎实现> 基于 OpenAI Embedding   ChromaDB 的极简语义搜索引擎实现
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)[! [Python] (https://img.shields.io/badge/python - 3.10 -blue.svg)] (https://www.python.org/)
+[![License   许可证](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)(!(许可证)(https://img.shields.io/badge/license-MIT-green.svg))(许可证)
 
 ## 概述
 
@@ -12,16 +12,16 @@
 ## 架构
 
 ```
-docs.txt ──→ Embedding API ──→ ChromaDB
+docs.txt ──→ Embedding API ──→ ChromaDBdocs.txt──&rarr；嵌入API──&rarrdocs.txt──&rarr；嵌入API──&rarr
                                     ↑
-用户输入 ──→ Embedding API ──→ 向量检索 ──→ 返回 Top-K 结果
+用户输入 ──→ Embedding API ──→ 向量检索 ──→ 返回 Top-K 结果用户输入 ──→ Embedding API ──→ 向量检索 ──→ 返回 Top-K 结果
 ```
 
 ## 前置依赖
 
 | 依赖 | 用途 |
 |------|------|
-| Python 3.10+ | 运行环境 |
+| Python 3.10+ | 运行环境 |   | Python 3.10  | 运行环境 |
 | openai | 调用 text-embedding-3-small 模型 |
 | chromadb | 本地向量数据库，存储与检索 |
 
